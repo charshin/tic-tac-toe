@@ -1,0 +1,9 @@
+Dockerfile
+node_modules
+build
+dist
+.vscode
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local

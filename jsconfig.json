@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "$app": ["app"],
+      "$app/*": ["app/*"],
+      "$modules": ["app/modules"],
+      "$modules/*": ["app/modules/*"],
+      "$api": ["app/api"],
+      "$api/*": ["app/api/*"],
+      "$data": ["app/data"],
+      "$data/*": ["app/data/*"],
+      "$components": ["app/modules/common/components"],
+      "$components/*": ["app/modules/common/components/*"],
+      "$controls": ["app/modules/common/controls"],
+      "$controls/*": ["app/modules/common/controls/*"],
+      "$utils": ["app/modules/common/utils"],
+      "$utils/*": ["app/modules/common/utils/*"]
+    }
+  },
+  "exclude": ["node_modules", "build", "dist"]
+}

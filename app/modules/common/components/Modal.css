@@ -1,0 +1,13 @@
+.modal-dimmer {
+  @apply fixed inset-0 w-screen h-screen;
+  @apply bg-black bg-opacity-50;
+  @apply z-40;
+}
+
+.modal-container {
+  @apply fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
+  @apply bg-white rounded;
+  @apply z-50;
+  @apply overflow-auto;
+  max-height: calc(100vh - 50px);
+}
